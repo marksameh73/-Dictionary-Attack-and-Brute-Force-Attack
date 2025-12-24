@@ -43,9 +43,10 @@ def brute_force_attack():
 if __name__ == "__main__":
     username = input("Enter username: ")
     print(f"Hello, {username}. Attempting to crack the password...")
-        print(f"Hello, {username}. Attempting to crack the password...")
+     print(f"Hello, {username}. Attempting to crack the password...")
 
     if not dictionary_attack():
         
         brute_force_attack()
+
 
