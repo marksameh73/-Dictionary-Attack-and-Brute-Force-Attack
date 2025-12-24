@@ -19,6 +19,8 @@ def dictionary_attack():
         print("Dictionary file not found. Skipping dictionary attack.")
     
     print("Dictionary attack failed.")
+        print("Dictionary attack failed.")
+
     return False
 
 
@@ -48,5 +50,6 @@ if __name__ == "__main__":
     if not dictionary_attack():
         
         brute_force_attack()
+
 
 
